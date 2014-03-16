@@ -12,11 +12,21 @@ Use `VimCompleteLikeAModernEditor` to add keyboard interactions to `Ultisnips` a
 
 Install:
 
-
+        " Requirements:
         " Place snippets in ~/.vim/myUltiSnippets/
         Bundle "Shougo/neocomplete.vim"
         let g:neocomplete#enable_at_startup = 1
         let g:neocomplete#enable_auto_select = 1
         
         Bundle "git://github.com/SirVer/ultisnips.git"
+        
+        " Plugin
         Bundle "jordwalke/VimCompleteLikeAModernEditor"
+
+
+
+
+
+
+
+Note: If you use the excellent https://github.com/MartinLafreniere/vim-PairTools, then PairTools' "jigsaw" feature must be disabled to correctly emulate modern editors.

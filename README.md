@@ -23,10 +23,3 @@ Install:
         " Plugin
         Bundle "jordwalke/VimCompleteLikeAModernEditor"
 
-
-
-
-
-
-
-Note: If you use the excellent https://github.com/MartinLafreniere/vim-PairTools, then PairTools' "jigsaw" feature must be disabled to correctly emulate modern editors.

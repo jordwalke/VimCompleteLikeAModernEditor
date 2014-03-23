@@ -7,11 +7,11 @@ if exists('did_VimCompleteLikeAModernEditor_plugin') || &cp || version < 700
     finish
 endif
 
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-let g:UltiSnipsSnippetsDir="~/.vim"
-let g:UltiSnipsSnippetDirectories=["myUltiSnippets"]
+" Put this in a file called `~/.keysVimRc` that is loaded after all of your
+" plugins.
+" let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsJumpForwardTrigger="<tab>"
+" let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 " If want to use stock snippets let g:UltiSnipsSnippetDirectories=["myUltiSnips", "UltiSnips"]
 set noshowmatch " unfortunately messes up if showing match while tab triggering
 

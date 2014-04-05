@@ -10,7 +10,8 @@ Use `VimCompleteLikeAModernEditor` to add keyboard interactions to `Ultisnips` a
   - Removes all default snippets.
   - Tells the snippet system to look for your custom snippets in `~/.vim/myUltiSnippets/`
 
-*Install*:
+
+#####Install
 
         " Prereqs:
         Bundle "git://github.com/jordwalke/AutoComplPop.git"
@@ -27,6 +28,6 @@ Use `VimCompleteLikeAModernEditor` to add keyboard interactions to `Ultisnips` a
         " let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 
-*Better Install*:
-Just use https://github.com/jordwalke/VimBox/
-It has all of this included by default.
+#####Better Install#####
+
+Just use https://github.com/jordwalke/VimBox/ - It has all of this included by default.

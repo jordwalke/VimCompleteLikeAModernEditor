@@ -29,14 +29,16 @@ function! g:UltiSnips_Complete()
       call UltiSnips#JumpForwards()
       if g:ulti_jump_forwards_res == 0
         if pumvisible()
-          return neocomplete#close_popup() . neocomplete#cancel_popup()
+          return "\<CR>"
+          " return neocomplete#close_popup() . neocomplete#cancel_popup()
         else
           return "\<TAB>"
         endif
       endif
     else
       if pumvisible()
-        return neocomplete#close_popup() . neocomplete#cancel_popup()
+        return "\<CR>"
+        " return neocomplete#close_popup() . neocomplete#cancel_popup()
       else
         call UltiSnips#JumpForwards()
         if g:ulti_jump_forwards_res == 0

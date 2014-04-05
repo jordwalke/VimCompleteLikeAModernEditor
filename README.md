@@ -20,3 +20,13 @@ Install:
         Bundle "jordwalke/VimCompleteLikeAModernEditor"
 
         " Place snippets in ~/.vim/myUltiSnippets/
+        
+        " Put this in your .vimrc
+        " let g:UltiSnipsExpandTrigger="<tab>"
+        " let g:UltiSnipsJumpForwardTrigger="<tab>"
+        " let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+
+Better Install:
+Just use https://github.com/jordwalke/VimBox/
+It has all of this included by default.

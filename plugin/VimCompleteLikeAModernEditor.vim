@@ -24,14 +24,6 @@ function! s:ConfigurePairToolsReturnHook()
     endif
 endfunction
 autocmd FileType  * call s:ConfigurePairToolsReturnHook()
-" If pairtools is installed, this following mapping will be clobbered (which is
-" fine because the above CR hook will perfrom its own special handling), but if
-" it's not installed, it will work.
-function! s:manualCRHandler()
-  return pumvisible() ? neocomplete#close_popup() . neocomplete#cancel_popup() : "\<CR>"
-endfunction
-inoremap <silent> <CR> <C-r>=<SID>manualCRHandler()<CR>
-
 let did_VimCompleteLikeAModernEditor_plugin=1
 
 

@@ -21,6 +21,8 @@ Use `VimCompleteLikeAModernEditor` to add keyboard interactions to `Ultisnips` a
         Bundle "jordwalke/VimCompleteLikeAModernEditor"
 
         " Place snippets in ~/.vim/myUltiSnippets/
+        " Or if want to use stock snippets too...
+        " let g:UltiSnipsSnippetDirectories=["myUltiSnips", "UltiSnips"]
         
         " Put this in your .vimrc
         " let g:UltiSnipsExpandTrigger="<tab>"

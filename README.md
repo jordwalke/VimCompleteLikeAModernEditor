@@ -1,6 +1,8 @@
 VimCompleteLikeAModernEditor
 ============================
 
+- Requires that you have UltiSnips also installed.
+
 Make Vim complete like a modern editor - does the right thing. Works with `Ultisnips` and jordwalke's fork of `AutoComplPop`.
 
 Use `VimCompleteLikeAModernEditor` to add keyboard interactions to `Ultisnips` and `jordwalke/AutoComplPop` in a way that behaves like Sublime/XCode etc.
